@@ -1,0 +1,162 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>SakoTech Global — Assistance et confidentialité</title><meta name="description" content="Assistance et politique de confidentialité des apps SakoTech Global"><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+/* Layout : une colonne de lecture, en-tête sobre doré, deux langues en onglets */
+:root{
+  --bg:#f7f4ec; --fg:#1d1a14; --muted:#6a6252; --accent:#8a6a1f; --line:#e2dccc; --card:#fffdf7;
+  --display:"Fraunces",Georgia,"Times New Roman",serif; --body:"Source Sans 3","Helvetica Neue",Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#15130f;--fg:#efe9db;--muted:#a69d88;--accent:#d2b05a;--line:#2d291f;--card:#1d1a14;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#15130f;--fg:#efe9db;--muted:#a69d88;--accent:#d2b05a;--line:#2d291f;--card:#1d1a14;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 48px}
+.wrap{max-width:720px;margin:0 auto}
+header{padding-block:40px 24px;border-bottom:1px solid var(--line)}
+.eyebrow{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:600}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(30px,6vw,42px);margin:6px 0 8px;text-wrap:balance;line-height:1.1}
+h2{font-family:var(--display);font-weight:600;font-size:24px;margin:36px 0 10px;text-wrap:balance}
+h3{font-size:17px;margin:20px 0 6px}
+p{margin:0 0 12px;max-width:65ch}
+ul{padding-left:20px;margin:0 0 12px}
+li{margin-bottom:4px}
+.tabs{display:flex;gap:8px;margin-top:18px}
+.tabs button{font:inherit;font-weight:600;padding:8px 16px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--fg);cursor:pointer}
+.tabs button[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.tabs button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.contact{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:18px 0;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.contact code{font-size:16px;user-select:all;background:transparent}
+.contact button{font:inherit;font-size:14px;padding:6px 12px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--fg);cursor:pointer}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:600;color:var(--muted);font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+.table{overflow-x:auto}
+.muted{color:var(--muted);font-size:14px}
+footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+@media (prefers-reduced-motion:no-preference){.tabs button{transition:background .15s}}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow"><a href="./" style="color:inherit;text-decoration:none">← SakoTech Global</a> · Niamey</div>
+  <h1>Assistance et confidentialité</h1>
+  <p class="muted">Mondova · Vega Gx · Vega Sx · Vega Dx · Vega Zx · MindMapAI · MesureTerrain · SuiviHabitudes — iPhone, iPad et Mac</p>
+  <div class="tabs" role="tablist">
+    <button id="tab-fr" role="tab" aria-selected="true" aria-controls="fr">Français</button>
+    <button id="tab-en" role="tab" aria-selected="false" aria-controls="en">English</button>
+  </div>
+</header>
+
+<section id="fr" role="tabpanel" aria-labelledby="tab-fr">
+  <h2>Nous contacter</h2>
+  <p>Une question, un bug, une idée ? Écrivez-nous, nous répondons en général sous 48 h (jours ouvrés).</p>
+  <div class="contact">
+    <span>E-mail d'assistance :</span>
+    <code id="mail-fr">issaka_oumarou@yahoo.fr</code>
+    <button type="button" data-copy="mail-fr">Copier</button>
+  </div>
+  <p>Précisez le nom de l'app, votre appareil (ex. iPhone 15, iPad, Mac) et la version d'iOS ou de macOS.</p>
+
+  <h2>Questions fréquentes</h2>
+  <h3>Comment restaurer un achat (Premium, Pro) ?</h3>
+  <p>Ouvrez l'écran Premium de l'app (Réglages › Premium ou le bouton couronne) et touchez « Restaurer les achats ». L'achat est universel : il vaut sur iPhone, iPad et Mac avec le même compte Apple.</p>
+  <h3>Comment annuler un abonnement ?</h3>
+  <p>Réglages de l'appareil › votre nom › Abonnements, puis choisissez l'app. L'annulation prend effet à la fin de la période en cours.</p>
+  <h3>Les fonctions IA ne s'affichent pas (MindMapAI, SuiviHabitudes)</h3>
+  <p>L'IA tourne sur l'appareil avec Apple Intelligence : elle demande un iPhone 15 Pro ou plus récent, ou un iPad/Mac avec puce M, et une langue prise en charge. Sur les autres appareils, toutes les fonctions manuelles restent disponibles.</p>
+  <h3>Mes données sont-elles envoyées quelque part ?</h3>
+  <p>Non. Vos cartes, habitudes, calculs et mesures restent sur votre appareil (et dans votre iCloud si vous l'activez). Voir la politique ci-dessous.</p>
+
+  <h2 id="confidentialite">Politique de confidentialité</h2>
+  <p class="muted">Dernière mise à jour : 17 octobre 2026</p>
+  <p>SakoTech Global (Issaka Oumarou Garba, Niamey, Niger) édite les applications listées en haut de cette page. Cette politique s'applique à toutes.</p>
+  <h3>Données collectées</h3>
+  <p>Nos applications ne créent pas de compte, ne demandent pas d'adresse e-mail et ne contiennent pas de publicité. Nous ne collectons aucune donnée personnelle et n'utilisons aucun outil de suivi ou d'analyse tiers.</p>
+  <div class="table"><table>
+    <tr><th>Application</th><th>Données traitées sur l'appareil</th><th>Partage</th></tr>
+    <tr><td>MesureTerrain</td><td>Position GPS, uniquement pendant une mesure, pour tracer la parcelle. Jamais envoyée.</td><td>Aucun</td></tr>
+    <tr><td>Mondova</td><td>Aucune donnée personnelle. L'onglet carte peut charger des fonds de carte depuis le fournisseur de cartes (adresse IP technique).</td><td>Fournisseur de cartes, pour afficher la carte</td></tr>
+    <tr><td>SuiviHabitudes</td><td>Habitudes, tâches, résumés, conversations avec l'assistant : stockés sur l'appareil. Notifications locales. Documents importés analysés sur l'appareil.</td><td>Aucun</td></tr>
+    <tr><td>MindMapAI</td><td>Cartes mentales stockées sur l'appareil, et dans votre iCloud Drive si vous l'activez. Génération IA sur l'appareil.</td><td>Aucun (iCloud = votre compte)</td></tr>
+    <tr><td>Vega Gx · Sx · Dx · Zx</td><td>Historique de calculs et réglages, stockés sur l'appareil.</td><td>Aucun</td></tr>
+  </table></div>
+  <h3>Achats intégrés et abonnements</h3>
+  <p>Les paiements sont traités par Apple via l'App Store. Nous ne voyons ni votre nom, ni votre moyen de paiement ; nous recevons seulement un reçu anonyme confirmant l'achat.</p>
+  <h3>Catalogue « Nos autres apps »</h3>
+  <p>Pour n'afficher que les applications déjà publiées, l'app interroge le service public de recherche de l'App Store (itunes.apple.com). Aucune information personnelle n'est transmise.</p>
+  <h3>Vos droits</h3>
+  <p>Comme nous ne conservons aucune donnée vous concernant, il n'y a rien à exporter ni à supprimer de notre côté : supprimer l'app efface ses données de votre appareil. Pour toute question, contactez-nous à l'adresse ci-dessus.</p>
+  <h3>Enfants</h3>
+  <p>Nos applications conviennent à tous les âges et ne collectent aucune donnée, y compris auprès des enfants.</p>
+  <h3>Modifications</h3>
+  <p>Toute modification de cette politique sera publiée sur cette page avec sa date.</p>
+</section>
+
+<section id="en" role="tabpanel" aria-labelledby="tab-en" hidden>
+  <h2>Contact us</h2>
+  <p>A question, a bug, an idea? Write to us; we usually reply within 48 hours (working days).</p>
+  <div class="contact">
+    <span>Support e-mail:</span>
+    <code id="mail-en">issaka_oumarou@yahoo.fr</code>
+    <button type="button" data-copy="mail-en">Copy</button>
+  </div>
+  <p>Please include the app name, your device (e.g. iPhone 15, iPad, Mac) and your iOS or macOS version.</p>
+
+  <h2>Frequently asked questions</h2>
+  <h3>How do I restore a purchase (Premium, Pro)?</h3>
+  <p>Open the app's Premium screen (Settings › Premium or the crown button) and tap "Restore purchases". Purchases are universal: they work on iPhone, iPad and Mac with the same Apple account.</p>
+  <h3>How do I cancel a subscription?</h3>
+  <p>Device Settings › your name › Subscriptions, then pick the app. Cancellation takes effect at the end of the current period.</p>
+  <h3>AI features don't appear (MindMapAI, SuiviHabitudes)</h3>
+  <p>AI runs on-device with Apple Intelligence: it needs an iPhone 15 Pro or later, or an M-series iPad/Mac, and a supported language. On other devices every manual feature stays available.</p>
+  <h3>Is my data sent anywhere?</h3>
+  <p>No. Your maps, habits, calculations and measurements stay on your device (and in your iCloud if you enable it). See the policy below.</p>
+
+  <h2 id="privacy">Privacy policy</h2>
+  <p class="muted">Last updated: 17 October 2026</p>
+  <p>SakoTech Global (Issaka Oumarou Garba, Niamey, Niger) publishes the applications listed at the top of this page. This policy applies to all of them.</p>
+  <h3>Data we collect</h3>
+  <p>Our apps have no accounts, never ask for an e-mail address and contain no advertising. We collect no personal data and use no third-party tracking or analytics tools.</p>
+  <div class="table"><table>
+    <tr><th>App</th><th>Data processed on your device</th><th>Sharing</th></tr>
+    <tr><td>MesureTerrain</td><td>GPS position, only during a measurement, to trace the plot. Never sent anywhere.</td><td>None</td></tr>
+    <tr><td>Mondova</td><td>No personal data. The map tab may load map tiles from the map provider (technical IP address).</td><td>Map provider, to display the map</td></tr>
+    <tr><td>SuiviHabitudes</td><td>Habits, tasks, summaries and assistant conversations stored on the device. Local notifications. Imported documents analysed on the device.</td><td>None</td></tr>
+    <tr><td>MindMapAI</td><td>Mind maps stored on the device, and in your iCloud Drive if you enable it. On-device AI generation.</td><td>None (iCloud = your account)</td></tr>
+    <tr><td>Vega Gx · Sx · Dx · Zx</td><td>Calculation history and settings, stored on the device.</td><td>None</td></tr>
+  </table></div>
+  <h3>In-app purchases and subscriptions</h3>
+  <p>Payments are handled by Apple through the App Store. We never see your name or payment method; we only receive an anonymous receipt confirming the purchase.</p>
+  <h3>"Our other apps" catalogue</h3>
+  <p>To show only apps that are already published, the app queries the App Store's public lookup service (itunes.apple.com). No personal information is transmitted.</p>
+  <h3>Your rights</h3>
+  <p>Since we keep no data about you, there is nothing to export or delete on our side: deleting the app removes its data from your device. For any question, contact us at the address above.</p>
+  <h3>Children</h3>
+  <p>Our apps are suitable for all ages and collect no data, including from children.</p>
+  <h3>Changes</h3>
+  <p>Any change to this policy will be published on this page with its date.</p>
+</section>
+
+<footer>© 2026 SakoTech Global · Niamey, Niger</footer>
+</div>
+
+<script>
+(function(){
+  var tabs=document.querySelectorAll('[role=tab]');
+  function show(id){
+    tabs.forEach(function(t){var on=t.getAttribute('aria-controls')===id;t.setAttribute('aria-selected',on?'true':'false');document.getElementById(t.getAttribute('aria-controls')).hidden=!on;});
+    try{localStorage.setItem('sako.lang',id);}catch(e){}
+  }
+  tabs.forEach(function(t){t.addEventListener('click',function(){show(t.getAttribute('aria-controls'));});});
+  var saved=null; try{saved=localStorage.getItem('sako.lang');}catch(e){}
+  if(location.hash==='#en'||location.hash==='#privacy'||saved==='en') show('en'); if(location.hash==='#confidentialite') show('fr');
+  document.querySelectorAll('[data-copy]').forEach(function(b){
+    b.addEventListener('click',function(){
+      var el=document.getElementById(b.getAttribute('data-copy')), txt=el.textContent, done=function(){b.textContent='✓';setTimeout(function(){b.textContent=b.getAttribute('data-copy')==='mail-fr'?'Copier':'Copy';},1500);};
+      if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(done).catch(function(){var r=document.createRange();r.selectNodeContents(el);var s=getSelection();s.removeAllRanges();s.addRange(r);});}
+      else{var r=document.createRange();r.selectNodeContents(el);var s=getSelection();s.removeAllRanges();s.addRange(r);}
+    });
+  });
+})();
+</script>
+
+</body></html>
